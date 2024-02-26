@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-width: 100%;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 135px;
+}
+
+.logo__img {
+    width: 100px;
+    margin-right: 135px;
+}
+
+.navigation {
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 80px;
+    font-family: 'Futura New';
+    font-weight: 700;
+    font-size: 20px;
+    color: #C3B9B5;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.nav__item:hover{
+    color: #FFC59E;
+}
+
+.nav__link {
+
+}
+
+.content {
+    display: flex;
+}
+
+.title__block {
+    font-family: "SchoolBook", "Times New Roman";
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 138%;
+    color: #080606;
+}
+
+.title__text {
+}
+
+.title__buttom {}
+
+.title-btn {
+    font-family: 'Futura New', roboto;
+    box-shadow: 0px 4px 20px #FFC59E;
+    border-radius: 33.5px;
+    background-color: #FFC59E;
+    box-shadow: 0px 4px 20px #FFC59E;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 24px 77px;
+    transition: all 0.3s;
+}
+
+.title-btn:hover{
+    padding: 34px 87px;
+}
+
+.content__images {
+    width: 50%;
+    height: 768px;
+}
+
+.content__images-img {}
